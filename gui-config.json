@@ -1,0 +1,13 @@
+{
+    "configs": [
+        {
+            "method": "aes-256-cfb",
+            "password": "TzhFsgbcQ2RPp4vAbK",
+            "remarks": "yilian",
+            "server": "101.1.5.156",
+            "server_port": 1984
+        }
+    ],
+    "localPort": 1080,
+    "shareOverLan": false
+}
