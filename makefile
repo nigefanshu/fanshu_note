@@ -4,7 +4,7 @@ TARGETSRC1=test.cpp
 TARGETSRC2=test2.cpp
 src=$(filter-out $(TARGETSRC1) $(TARGETSRC2),$(ROOTSRC))   
 
-#过滤掉main  cpp文件
+#过滤掉带有main()  cpp文件
 
 OBJ=$(patsubst %.cpp,%.o,$(src))
 LIB=
