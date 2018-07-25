@@ -1,4 +1,3 @@
-
 ROOTSRC=$(wildcard *.cpp)
 TARGETSRC1=test.cpp
 TARGETSRC2=test2.cpp
@@ -22,4 +21,4 @@ test2:$(OBJ)
 	
 clean:
 	rm *.o test test2
-	@echo 'clean completed'
+	@echo 'clean completed'	
